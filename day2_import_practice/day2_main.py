@@ -15,7 +15,7 @@
 # ============================================================
 # Step 2: from ... import 방식 — 특정 함수만 가져오기
 # ============================================================
-# from prompts import make_prompt
+# from day2_prompts import make_prompt
 
 # result = make_prompt("영양사", "다이어트 식단")
 # print(result)
@@ -24,9 +24,9 @@
 # ============================================================
 # Step 3: import 방식 — 파일 전체를 가져오고 파일이름.함수이름()으로 사용
 # ============================================================
-# import prompts
+# import day2_prompts
 
-# result = prompts.translate_prompt("오늘 날씨가 좋다", "한국어", "영어")
+# result = day2_prompts.translate_prompt("오늘 날씨가 좋다", "한국어", "영어")
 # print(result)
 
 
